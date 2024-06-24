@@ -21,4 +21,10 @@ RSpec.describe Card do
     card.suit = "H"
     expect(card.suit).to eq("H")
   end
+
+  # it "shows off custom error message" do
+  #   card.suit = "notta suit"
+  #   testsuit = "Zoot"
+  #   expect(card.suit).to eq(testsuit), "Expected #{testsuit} but returned #{card.suit}."
+  # end
 end
